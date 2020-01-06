@@ -2,16 +2,17 @@
 <img src="SleepHunter/Nis.ico" width=32 height=32/>
 Dark Ages Automation Tool - Written By: ewrogers (Silo)
 
-**Disclaimer: Much of the code here does not follow proper MVVM conventions or project structure.**
-
-<img src="Screenshots/About-1.5.0.PNG"/>
-
-
 ## Requirements
 - [Dark Ages](http://www.darkages.com) Client 7.41
-- [.NET Framework 4.6.1](https://www.microsoft.com/en-us/download/details.aspx?id=49981) (or newer)
+- [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer) (or newer)
 
 ## Changelog
+
+#### Version 1.6.0 (from 1.5.0)
+- Updated .NET Framework to 4.8
+- Changed .ico to differentiate between HighDPI version
+- Added application manifest to enable GDI Scaling
+- Forced Administration Mode for executable
 
 #### Version 1.5.0 (from v1.4.x)
 - DA Client 7.41 is now supported
