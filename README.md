@@ -6,6 +6,9 @@ Dark Ages Automation Tool - Written By: ewrogers (Silo)
 - [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer) (or newer)
 
 ## Changelog
+-----------------
+#### Version 1.6.1 (from 1.6.0)
+- Fixed some text issues within app
 
 #### Version 1.6.0 (from 1.5.0)
 - Updated .NET Framework to 4.8
