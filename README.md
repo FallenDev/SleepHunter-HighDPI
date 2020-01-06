@@ -1,5 +1,4 @@
 # SleepHunter-HighDPI
-<img src="SleepHunter|HighDPI/Nis.ico" width=16 height=16/>
 Dark Ages Automation Tool - Written By: ewrogers (Silo)
 
 ## Requirements
