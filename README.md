@@ -1,5 +1,5 @@
 # SleepHunter-HighDPI
-Dark Ages Automation Tool - Written By: ewrogers (Silo)
+Dark Ages Automation Tool - Written By: ewrogers (Silo)\
 Modified | Maintained - Paul Buck (FallenDev)
 
 ## Requirements
