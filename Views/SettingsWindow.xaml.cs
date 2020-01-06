@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
@@ -45,18 +46,20 @@ namespace SleepHunter.Views
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             var isDebug = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyConfigurationAttribute>().Configuration == "Debug";
             versionText.Text = string.Format("Version {0}.{1}.{2}", version.Major.ToString(), version.Minor.ToString(), version.Build.ToString());
-
             var buildNumber = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>().InformationalVersion;
-            var buildYear = Convert.ToInt32(buildNumber.Substring(0, 2)) + 2000;
-            var buildMonth = Convert.ToInt32(buildNumber.Substring(2, 1), 16);
-            var buildDay = Convert.ToInt32(buildNumber.Substring(3, 2));
-            var buildIncrement = buildNumber.Substring(5, 1);
 
-            //var buildDate = new DateTime(buildYear, buildMonth, buildDay);
-            var buildDate = DateTime.Now;
+            try
+            {
+                DateTime _dt = File.GetCreationTime(GetType().Assembly.Location);
+                buildDateText.Text = _dt.ToString();
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                throw e;
+            }
+
 
             buildText.Text = string.Format("Build {0}", buildNumber);
-            buildDateText.Text = buildDate.ToString("MMMM, yyyy");
 
             if (isDebug)
                 buildText.Text += "  (Debug)";
