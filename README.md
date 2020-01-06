@@ -10,6 +10,7 @@ Modified | Maintained - Paul Buck (FallenDev)
 -----------------
 #### Version 1.6.1 (from 1.6.0)
 - Fixed some text issues within app
+- Fixed DateTime Stamp on About Page
 
 #### Version 1.6.0 (from 1.5.0)
 - Updated .NET Framework to 4.8
