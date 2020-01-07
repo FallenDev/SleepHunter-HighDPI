@@ -1,5 +1,6 @@
 # SleepHunter-HighDPI
 Dark Ages Automation Tool - Written By: ewrogers (Silo)
+- [SleepHunter-HighDPI](https://www.thebucknetwork.com/Content/ZGameBuilds/SleepHunter.exe) Version 1.6.1
 - [SleepHunter4](https://github.com/ewrogers/SleepHunter4) Version 1.5.0
 
 ## Requirements
