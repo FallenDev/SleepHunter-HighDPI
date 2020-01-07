@@ -1,7 +1,6 @@
 # SleepHunter-HighDPI
 Dark Ages Automation Tool - Written By: ewrogers (Silo)\
 - [SleepHunter4](https://github.com/ewrogers/SleepHunter4) Version 1.5.0\
-Modified | Maintained - Paul Buck (FallenDev)
 
 ## Requirements
 - [Dark Ages](http://www.darkages.com) Client 7.41
