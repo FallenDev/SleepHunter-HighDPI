@@ -13,6 +13,7 @@ Dark Ages Automation Tool - Written By: ewrogers (Silo)
 -----------------
 #### Version 1.6.2 (from 1.6.1)
 - Testing DPI-Aware & GDI Scaling (Beta)
+- Converting Application to UWP (Xamarin)
 
 #### Version 1.6.1 (from 1.6.0)
 - Fixed some text issues within app
