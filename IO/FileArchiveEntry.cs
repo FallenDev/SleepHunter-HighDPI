@@ -1,42 +1,21 @@
 ﻿
 namespace SleepHunter.IO
 {
-  public sealed class FileArchiveEntry
-  {
-    int index;
-    string name;
-    long offset;
-    long size;
-
-    public int Index
+    public sealed class FileArchiveEntry
     {
-      get { return index; }
-      set { index = value; }
-    }
+        public int Index { get; set; }
 
-    public string Name
-    {
-      get { return name; }
-      set { name = value; }
-    }
+        public string Name { get; set; }
 
-    public long Offset
-    {
-      get { return offset; }
-      set { offset = value; }
-    }
+        public long Offset { get; set; }
 
-    public long Size
-    {
-      get { return size; }
-      set { size = value; }
-    }
+        public long Size { get; set; }
 
-    public FileArchiveEntry() { }
+        public FileArchiveEntry() { }
 
-    public override string ToString()
-    {
-      return base.ToString();
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
-  }
 }
