@@ -4,7 +4,7 @@ using System.Collections.Concurrent;
 using System.ComponentModel;
 using System.Linq;
 
-using SleepHunter.IO.Process;
+using SleepHunterIO.IO.Process;
 using SleepHunter.Settings;
 
 namespace SleepHunter.Models

@@ -8,6 +8,7 @@ using System.Windows.Threading;
 using SleepHunter.Extensions;
 using SleepHunter.Models;
 using SleepHunter.Settings;
+using SleepHunterIO.Extensions;
 
 namespace SleepHunter.Views
 {

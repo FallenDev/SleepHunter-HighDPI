@@ -52,7 +52,6 @@
 
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2017/WindowsSettings">
-      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">Per MonitorV2</dpiAware>
       <gdiScaling>true</gdiScaling>
     </asmv3:windowsSettings>
   </asmv3:application>

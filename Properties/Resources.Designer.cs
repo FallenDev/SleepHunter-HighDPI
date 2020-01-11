@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SleepHunter.Properties {
+namespace SleepHunterIO.Properties {
     using System;
     
     

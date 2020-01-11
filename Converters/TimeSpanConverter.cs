@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 
 using SleepHunter.Extensions;
+using SleepHunterIO.Extensions;
 
 namespace SleepHunter.Converters
 {

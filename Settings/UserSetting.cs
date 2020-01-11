@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Xml.Serialization;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 
 namespace SleepHunter.Settings
 {

@@ -4,8 +4,8 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Xml.Serialization;
 
-using SleepHunter.Common;
-using SleepHunter.IO.Process;
+using SleepHunterIO.Common;
+using SleepHunterIO.IO.Process;
 
 namespace SleepHunter.Settings
 {

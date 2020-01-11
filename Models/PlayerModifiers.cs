@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 
-using SleepHunter.Common;
-using SleepHunter.IO.Process;
+using SleepHunterIO.Common;
+using SleepHunterIO.IO.Process;
 
 namespace SleepHunter.Models
 {

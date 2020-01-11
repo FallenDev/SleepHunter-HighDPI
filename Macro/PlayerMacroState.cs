@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Windows;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 using SleepHunter.Metadata;
 using SleepHunter.Models;
 using SleepHunter.Settings;

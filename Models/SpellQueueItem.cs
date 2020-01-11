@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 using SleepHunter.Macro;
 
 namespace SleepHunter.Models

@@ -2,7 +2,7 @@
 using System.IO;
 using System.Xml.Serialization;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 using SleepHunter.Macro;
 
 namespace SleepHunter.Settings

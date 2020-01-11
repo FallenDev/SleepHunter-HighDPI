@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using System.Windows.Media;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 
 namespace SleepHunter.Models
 {

@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 using SleepHunter.Models;
 using SleepHunter.Settings;
 

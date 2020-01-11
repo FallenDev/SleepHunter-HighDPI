@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Serialization;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 
 namespace SleepHunter.Macro
 {

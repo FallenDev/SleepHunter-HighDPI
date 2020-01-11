@@ -62,6 +62,9 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SleephunterIO">
+      <HintPath>..\Sleephunter IO\bin\Release\SleephunterIO.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -79,9 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs" />
-    <Compile Include="Common\ObservableObject.cs" />
     <Compile Include="Converters\PlayerClassConverter.cs" />
-    <Compile Include="Extensions\ControlExtender.cs" />
     <Compile Include="Views\FlowerTargetWindow.xaml.cs" />
     <Compile Include="Commands\AsyncDelegateCommand.cs" />
     <Compile Include="Commands\DelegateCommand.cs" />
@@ -109,20 +110,7 @@
     <Compile Include="Views\SpellEditorWindow.xaml.cs" />
     <Compile Include="Views\SpellTargetWindow.xaml.cs" />
     <Compile Include="Views\StaffEditorWindow.xaml.cs" />
-    <Compile Include="Extensions\StringExtender.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
-    <Compile Include="Win32\MemoryBasicInformation.cs" />
-    <Compile Include="Win32\NativeMethods.cs" />
-    <Compile Include="Win32\ProcessAccessFlags.cs" />
-    <Compile Include="Win32\ProcessCreationFlags.cs" />
-    <Compile Include="Win32\ProcessInformation.cs" />
-    <Compile Include="Win32\Rect.cs" />
-    <Compile Include="Win32\SecurityAttributes.cs" />
-    <Compile Include="Win32\StartupInfo.cs" />
-    <Compile Include="Win32\VirtualKeyMapMode.cs" />
-    <Compile Include="Win32\VirtualMemoryProtection.cs" />
-    <Compile Include="Win32\VirtualMemoryStatus.cs" />
-    <Compile Include="Win32\VirtualMemoryType.cs" />
     <Compile Include="Extensions\WindowExtender.cs" />
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -138,13 +126,11 @@
     <Compile Include="Models\Ability.cs" />
     <Compile Include="Converters\BooleanInverter.cs" />
     <Compile Include="Converters\ByteStringConverter.cs" />
-    <Compile Include="Extensions\CharacterExtender.cs" />
     <Compile Include="Models\ClientState.cs" />
     <Compile Include="Converters\ComparisonConverters.cs" />
     <Compile Include="Models\EquipmentSet.cs" />
     <Compile Include="Models\FlowerQueueItem.cs" />
     <Compile Include="Models\FlowerQueueItemEventArgs.cs" />
-    <Compile Include="Common\ICopyable.cs" />
     <Compile Include="Models\InterfacePanel.cs" />
     <Compile Include="Models\Inventory.cs" />
     <Compile Include="Models\InventoryItem.cs" />
@@ -163,25 +149,7 @@
     <Compile Include="Models\SpellQueueItemEventArgs.cs" />
     <Compile Include="Models\SpellTarget.cs" />
     <Compile Include="Converters\TimeSpanConverter.cs" />
-    <Compile Include="Extensions\TimeSpanExtender.cs" />
     <Compile Include="Converters\VisibilityConverter.cs" />
-    <Compile Include="Extensions\BinaryReaderExtender.cs" />
-    <Compile Include="IO\FileArchive.cs" />
-    <Compile Include="IO\FileArchiveEntry.cs" />
-    <Compile Include="IO\FileArchiveManager.cs" />
-    <Compile Include="IO\PathHelper.cs" />
-    <Compile Include="IO\Process\ClientProcess.cs" />
-    <Compile Include="IO\Process\ClientProcessEventArgs.cs" />
-    <Compile Include="IO\Process\DynamicMemoryVariable.cs" />
-    <Compile Include="IO\Process\MemoryOffset.cs" />
-    <Compile Include="IO\Process\MemoryVariable.cs" />
-    <Compile Include="IO\Process\MemoryVariableExtender.cs" />
-    <Compile Include="IO\Process\ProcessAccess.cs" />
-    <Compile Include="IO\Process\ProcessManager.cs" />
-    <Compile Include="IO\Process\ProcessMemoryAccessor.cs" />
-    <Compile Include="IO\Process\ProcessMemoryScanner.cs" />
-    <Compile Include="IO\Process\ProcessMemoryStream.cs" />
-    <Compile Include="IO\Process\SearchMemoryVariable.cs" />
     <Compile Include="Macro\Hotkey.cs" />
     <Compile Include="Macro\HotkeyManager.cs" />
     <Compile Include="Macro\MacroManager.cs" />

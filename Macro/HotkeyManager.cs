@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using System.Windows.Input;
 
-using SleepHunter.Win32;
+using SleepHunterIO.Win32;
 
 namespace SleepHunter.Macro
 {

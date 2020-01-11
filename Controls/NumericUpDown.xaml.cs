@@ -6,6 +6,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 
 using SleepHunter.Extensions;
+using SleepHunterIO.Extensions;
 
 namespace SleepHunter.Controls
 {

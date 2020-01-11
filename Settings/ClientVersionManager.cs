@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
 
-using SleepHunter.IO.Process;
+using SleepHunterIO.IO.Process;
 
 namespace SleepHunter.Settings
 {

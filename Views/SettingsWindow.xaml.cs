@@ -58,7 +58,6 @@ namespace SleepHunter.Views
                 throw e;
             }
 
-
             buildText.Text = string.Format("Build {0}", buildNumber);
 
             if (isDebug)

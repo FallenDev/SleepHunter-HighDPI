@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 
 namespace SleepHunter.Models
 {

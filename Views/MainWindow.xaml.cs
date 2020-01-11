@@ -16,14 +16,14 @@ using System.Windows.Threading;
 using Path = System.IO.Path;
 
 using SleepHunter.Extensions;
-using SleepHunter.IO;
-using SleepHunter.IO.Process;
+using SleepHunterIO.IO;
+using SleepHunterIO.IO.Process;
 using SleepHunter.Macro;
 using SleepHunter.Media;
 using SleepHunter.Metadata;
 using SleepHunter.Models;
 using SleepHunter.Settings;
-using SleepHunter.Win32;
+using SleepHunterIO.Win32;
 
 namespace SleepHunter.Views
 {

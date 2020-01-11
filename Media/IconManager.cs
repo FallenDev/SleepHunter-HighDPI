@@ -5,7 +5,7 @@ using System.Linq;
 using System.Windows.Media.Imaging;
 using System.Threading.Tasks;
 
-using SleepHunter.IO;
+using SleepHunterIO.IO;
 using SleepHunter.Settings;
 
 namespace SleepHunter.Media

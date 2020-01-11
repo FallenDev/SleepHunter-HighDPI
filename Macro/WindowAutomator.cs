@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-using SleepHunter.Win32;
+using SleepHunterIO.Win32;
 
 namespace SleepHunter.Macro
 {

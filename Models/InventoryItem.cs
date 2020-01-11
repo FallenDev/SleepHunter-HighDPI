@@ -1,4 +1,4 @@
-﻿using SleepHunter.Common;
+﻿using SleepHunterIO.Common;
 
 namespace SleepHunter.Models
 {

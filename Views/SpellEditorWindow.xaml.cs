@@ -4,6 +4,7 @@ using System.Windows;
 using SleepHunter.Extensions;
 using SleepHunter.Metadata;
 using SleepHunter.Models;
+using SleepHunterIO.Extensions;
 
 namespace SleepHunter.Views
 {

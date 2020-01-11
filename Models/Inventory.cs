@@ -6,8 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-using SleepHunter.Extensions;
-using SleepHunter.IO.Process;
+using SleepHunterIO.Extensions;
+using SleepHunterIO.IO.Process;
 
 namespace SleepHunter.Models
 {

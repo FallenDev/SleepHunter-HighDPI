@@ -3,8 +3,8 @@ using System.ComponentModel;
 using System.Text;
 using System.Xml.Serialization;
 
-using SleepHunter.Common;
-using SleepHunter.Extensions;
+using SleepHunterIO.Common;
+using SleepHunterIO.Extensions;
 
 namespace SleepHunter.Metadata
 {

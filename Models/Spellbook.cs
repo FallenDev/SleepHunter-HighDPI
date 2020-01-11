@@ -7,9 +7,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-using SleepHunter.Common;
-using SleepHunter.Extensions;
-using SleepHunter.IO.Process;
+using SleepHunterIO.Common;
+using SleepHunterIO.Extensions;
+using SleepHunterIO.IO.Process;
 using SleepHunter.Media;
 using SleepHunter.Metadata;
 

@@ -5,7 +5,7 @@ using System.IO;
 using System.Windows.Input;
 using System.Xml.Serialization;
 
-using SleepHunter.Common;
+using SleepHunterIO.Common;
 
 namespace SleepHunter.Macro
 {
