@@ -13,7 +13,21 @@ Dark Ages Automation Tool - Written By: ewrogers (Silo)
 -----------------
 #### Version 1.6.2 (from 1.6.1)
 - Testing DPI-Aware & GDI Scaling (Beta)
-- Converting Application to UWP (Xamarin)
+```XML
+  <asmv3:application>
+    <asmv3:windowsSettings>
+      <!-- fallback for Windows 7 and 8 -->
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/pm</dpiAware>
+
+      <!-- falls back to per-monitor if per-monitor v2 is not supported -->
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">permonitorv2,permonitor</dpiAwareness>
+
+      <!-- enables GDI DPI scaling -->
+      <gdiScaling xmlns="http://schemas.microsoft.com/SMI/2017/WindowsSettings">true</gdiScaling>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+```
+- ~~Converting Application to UWP (Xamarin)~~
 
 #### Version 1.6.1 (from 1.6.0)
 - Fixed some text issues within app
