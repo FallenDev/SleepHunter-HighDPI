@@ -30,7 +30,7 @@ Dark Ages Automation Tool - Written By: ewrogers (Silo)
 - ~~Converting Application to UWP (Xamarin)~~
 
 #### Version 1.6.1 (from 1.6.0)
-- Fixed some text issues within app
+- Fixed a few instances where inline variables could have been used
 - Fixed DateTime Stamp on About Page
 
 #### Version 1.6.0 (from 1.5.0)
