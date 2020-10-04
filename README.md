@@ -3,7 +3,7 @@ Dark Ages Automation Tool - Written By: ewrogers (Silo)
 - [SleepHunter4](https://github.com/ewrogers/SleepHunter4) Version 1.5.0
 
 ## Download
-- [SleepHunter-HighDPI](https://www.thebucknetwork.com/Content/ZGameBuilds/SleepHunter.exe) Version 1.6.1
+- [SleepHunter-HighDPI](https://www.thebucknetwork.com/Content/ZGameBuilds/SleepHunter_1.6.1.7z) Version 1.6.1
 
 ## Requirements
 - [Dark Ages](http://www.darkages.com) Client 7.41
